@@ -6,37 +6,57 @@
     <title>Applied Technology LLC</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #373737, #4e4e4e);
+            color: #fff;
+        }
+        header {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: linear-gradient(135deg, #373737, #6c757d);
-            color: #fff;
             text-align: center;
         }
-        img {
-            max-width: 300px;
+        header img {
+            max-width: 200px;
             height: auto;
         }
-        p {
-            font-size: 1.5em;
-            margin-top: 10px;
+        header h1 {
+            font-size: 2.5em;
+            margin: 20px 0 10px 0;
+            letter-spacing: 2px;
         }
-        a {
+        header p {
+            font-size: 1.3em;
+            margin: 10px 0 20px 0;
+            font-weight: 300;
+        }
+        header a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 25px;
+            font-size: 1em;
             color: #fff;
             text-decoration: none;
-            font-weight: bold;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        header a:hover {
+            background-color: #fff;
+            color: #373737;
         }
     </style>
 </head>
 <body>
-    <div>
-        <img src="AppliedTechnology_Logo.png" alt="Applied Technology LLC Logo">
-        <p>Helping customers adopt emerging technology with confidence and ease.</p>
-        <p>Email: <a href="mailto:alex@appliedtechadvisor.com">alex@appliedtechadvisor.com</a></p>
-    </div>
+    <header>
+        <img src="AppliedTechnology_Icon_transparent.png" alt="Applied Technology LLC Logo">
+        <h1>Applied Technology LLC</h1>
+        <p>Empowering businesses to adopt emerging technology with confidence.</p>
+        <a href="mailto:alex@appliedtechadvisor.com">Contact Us</a>
+    </header>
 </body>
 </html>
